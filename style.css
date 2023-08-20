@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-top{
+    height: 100vh;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+.myBtn{
+    background: #FF00FF;
+}
+
+.pr-5{
+    padding-right: 50px;
+}
+
+.myBtn:hover{
+    color: #000000;
+    background: #FF00FF;
+}
+
+.mt-sec{
+    margin-top: 100px;
+}
+
+.p-5-1{
+    padding: 20px 90px;
+}
+
+.py-5-1{
+    align-self: center;
+}
+
+.btnBm{
+    margin: 15rem auto 0;
+    position: relative;
+    bottom: 100px;
+    padding: 3.5rem 2rem;
+}
+
+.bg-bm{
+    background-color: hsl(192, 100%, 9%);
+}
+
+.w-50-1{
+    width: 26vw;
+    margin-right: 3.8rem;
+}
+
+.w-50-1 img{
+    padding-right: 20px;
+}
+
+.px-5-1{
+    margin-right: 7rem;
+}
+
+.px-5-1 a:hover{
+    color: darkslategrey;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+i{
+    background-color: hsl(192, 100%, 9%);
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.ml-5{
+    margin-right: 30px;
+}
