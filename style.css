@@ -7,6 +7,9 @@
 .img-top{
     height: 100vh;
     background-image: url(./images/bg-hero-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: hsl(193, 100%, 96%);
 }
 
@@ -14,7 +17,7 @@
     background: #FF00FF;
 }
 
-.pr-5{
+.pr-5-1{
     padding-right: 50px;
 }
 
@@ -27,12 +30,15 @@
     margin-top: 100px;
 }
 
-.p-5-1{
-    padding: 20px 90px;
-}
-
 .py-5-1{
     align-self: center;
+    padding: 0 7rem;
+    margin: auto;
+    flex: 1;
+}
+
+.py-5-1 p{
+    color: rgb(175, 165, 165);
 }
 
 .btnBm{
@@ -46,13 +52,23 @@
     background-color: hsl(192, 100%, 9%);
 }
 
-.w-50-1{
-    width: 26vw;
+.w-50-0{
+    width: 20vw;
     margin-right: 3.8rem;
 }
 
-.w-50-1 img{
+.w-50-0 img{
     padding-right: 20px;
+}
+
+.w-50-1{
+    width: 50vw;
+}
+
+.img{
+    width: 30vw;
+    margin: 0 auto;
+    flex: 1;
 }
 
 .px-5-1{
@@ -60,11 +76,9 @@
 }
 
 .px-5-1 a:hover{
-    color: darkslategrey;
-    background-color: #fff;
+    color: #fff;
+    text-decoration: underline;
     cursor: pointer;
-    padding: 5px;
-    border-radius: 10px;
 }
 
 ul li{
@@ -86,6 +100,98 @@ i{
     cursor: pointer;
 }
 
+i:hover{
+    color: #FF00FF;
+    border: 1px solid #FF00FF;
+}
+
 .ml-5{
     margin-right: 30px;
+}
+
+@media only screen and (max-width: 759.59px) {
+    .sc-img{
+        width: 20vw;
+    }
+
+    .sc-btn {
+        font-size: .8rem;
+        width: 30vw;
+        padding: 0 .9rem;
+    }
+
+    .top-text{
+        text-align: center;
+    }
+
+    .pr-5-1{
+        padding-right: 0;
+        width: 80vw;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .myBtn{
+        margin-bottom: 2rem;
+        font-size: .7rem;
+    }
+
+    .c-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .rev{
+        flex-direction: column;
+    }
+
+    .py-5-1{
+        padding: 2rem 0;
+        text-align: center;
+        font-size: .9rem;
+        margin: auto;
+    }
+
+    .img{
+        margin: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .sec-1{
+        width: 90vw;
+    }
+
+    .w-50-1{
+        width: 90vw;
+    }
+
+    .w-50-1 h2{
+        width: 80vw;
+    }
+
+    .image-bm{
+        width: 25vw;
+    }
+
+    .w-50-0{
+        width: 90vw;
+    }
+
+    .px-5-1{
+        padding: 0;
+    }
+
+    .pt-6{
+        padding-top: 2rem;
+    }
+
+    .social{
+        margin: 2rem auto;
+        justify-content: center;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
 }
